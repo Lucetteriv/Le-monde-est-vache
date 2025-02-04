@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+header{
+    padding: 20px;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header .link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .ubright {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
