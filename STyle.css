@@ -5,7 +5,8 @@
 }
 /*header*/
 header{
-    padding: 20px;
+    padding: 10px;
+    
 }
 
 header ul{
@@ -18,14 +19,58 @@ header ul li {
     list-style: none;
 }
 
-header .link {
+
+header .ubright{
+    display: flex;
+    align-items: right;
+    gap: 20px;
+}
+
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #a98062;
+    border-radius: 10px 10px 10px 10px;
+    padding: 3px;
+    border-top: 3px black solid;
+    border-right: 3px black solid;
+    /* police*/
+    font-family: "New Rocker", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.link:hover {
+    color: white;
+}
+
+header .line{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    padding: 20px;
+}
+
+/*footer*/
+footer ul{
+    background-color: #a98062;
+    padding: 30px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-header .ubright {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+footer li {
+    list-style: none;
+}
+footer .ContactF {   
+    /*police*/
+    font-family: "New Rocker", serif;
+    font-weight: 400;
+    font-style: normal;
 }
