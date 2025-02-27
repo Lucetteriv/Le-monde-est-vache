@@ -8,6 +8,11 @@
 .logo{
     height: 130px;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+
 header .allhead{
     display: flex;
     align-items: center;
@@ -37,9 +42,14 @@ header .link {
     font-weight: 400;
     font-style: normal;
     
+    
 }
 
-.link:hover {
+.ContactH:hover {
+    color: white;
+}
+
+.Catalogue:hover {
     color: white;
 }
 
@@ -65,9 +75,36 @@ header .pagelink{
     gap: 15px;
 }
 
+
+/*bio accueil*/
+h1{
+    display: flex;
+    justify-content: center;
+    /* police*/
+    font-family: "New Rocker", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+.bio {
+    padding: 10px;
+    margin: 20px 150px 20px 150px;
+    background-color: rgba(169, 128, 98, 0.5);
+    border-radius: 10px 10px 10px 10px;
+    /* police*/
+    font-family: "RocknRoll One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ici{
+    font-weight: bold;
+}
 /*footer*/
 footer ul{
-    background-color: #a98062;
+    background-color: rgba(169, 128, 98);
     padding: 30px;
     display: flex;
     align-items: center;
@@ -82,4 +119,8 @@ footer .ContactF {
     font-family: "New Rocker", serif;
     font-weight: 400;
     font-style: normal;
+}
+footer .ContactF:hover
+{
+    color: white;
 }
